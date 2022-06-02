@@ -7,11 +7,13 @@ import './Styles/App.css'
 const App : FC = () => {
   return (
     <>
+
         <Header />
 
         <Main>
             <Sidebar />
         </Main>
+        
     </>
   )
 }

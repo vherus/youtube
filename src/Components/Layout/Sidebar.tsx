@@ -4,6 +4,7 @@ import './Styles/Sidebar.css'
 const Sidebar : FC = () => {
     return (
         <aside>
+
             <ul>
                 <li>Home</li>
                 <li>About</li>
@@ -20,6 +21,7 @@ const Sidebar : FC = () => {
                 <li>One</li>
                 <li>Two</li>
             </ul>
+            
         </aside>
     )
 }

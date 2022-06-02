@@ -5,6 +5,7 @@ import './Styles/Header.css'
 const Header : FC = () => {
     return (
         <header>
+
             <div>
                 <img src={logo} alt='YouTube logo' />
             </div>
@@ -16,6 +17,7 @@ const Header : FC = () => {
             <div>
                 Menu
             </div>
+            
         </header>
     )
 }

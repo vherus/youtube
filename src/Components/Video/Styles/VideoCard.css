@@ -1,0 +1,17 @@
+article {
+    width: auto;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 90px auto;
+}
+
+section {
+    width: 360px;
+    padding: 0 20px 0 20px;
+}
+
+section img {
+    width: 360px;
+}
+  
