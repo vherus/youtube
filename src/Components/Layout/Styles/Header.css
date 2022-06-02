@@ -1,0 +1,13 @@
+header {
+    display: grid;
+    min-height: 65px;
+    padding: 0 20px 0 0;
+    grid-template-columns: repeat(3, auto);
+    background-color: #242424;
+    color: #fff;
+}
+
+img {
+    width: 90px;
+    padding: 18px 0;
+}
