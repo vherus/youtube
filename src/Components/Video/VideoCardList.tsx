@@ -7,8 +7,15 @@ const VideoCardList : FC = () => {
     const videos = useStore((state) => state.videos);
 
     return (
-        <section>
-            {videos.map(v => <VideoCard author={v.author} title={v.title} length={v.length} publishDateTime={v.publishDateTime} />)}
+        <section className='video-grid'>
+            {videos.map(v => (
+                <VideoCard
+                    author={v.author}
+                    title={v.title}
+                    length={v.length}
+                    publishDateTime={v.publishDateTime}
+                />
+            ))}
         </section>
     )
 }

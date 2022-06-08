@@ -1,4 +1,7 @@
-section {
+.video-grid {
+    width: calc(100% - 60px);
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    column-gap: 1px;
+    grid-template-rows: repeat(auto-fill, 320px);
 }
